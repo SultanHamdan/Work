@@ -1,0 +1,230 @@
+.info-icon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  min-height: 20px;
+}
+.your-tracking-link {
+  position: relative;
+  line-height: 20px;
+  font-weight: 600;
+}
+.info-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.link1 {
+  text-decoration: underline;
+}
+.link {
+  color: #005bd3;
+}
+.include-the-link-container {
+  align-self: stretch;
+  height: 40px;
+  position: relative;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+.heading1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.icon-wrapper-for-auto-layout4 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  display: none;
+  min-height: 16px;
+}
+.label2 {
+  position: relative;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 500;
+  font-family: Inter;
+  color: #303030;
+  text-align: left;
+}
+.icon-wrapper-for-auto-layout5 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  display: none;
+  min-height: 16px;
+}
+.button-21 {
+  cursor: pointer;
+  border: 0;
+  padding: 6px 9px 6px 12px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0-1px 0#b5b5b5 inset, -1px 0 0#e3e3e3 inset, 1px 0 0#e3e3e3 inset,
+    0 1px 0#e3e3e3 inset;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+}
+.icon-wrapper-for-auto-layout6 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  display: none;
+  z-index: 1;
+}
+.label3 {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  font-weight: 500;
+  font-family: Inter;
+  font-size: 12px;
+  background-color: transparent;
+  height: 16px;
+  flex: 1;
+  position: relative;
+  line-height: 16px;
+  color: #fff;
+  text-align: left;
+  display: inline-block;
+  min-width: 82px;
+}
+.icon-wrapper-for-auto-layout7 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  display: none;
+  z-index: 3;
+}
+.button-shine1,
+.shine1 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+.shine1 {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 8px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.07) 88.54%,
+    rgba(255, 255, 255, 0.15)
+  );
+  box-shadow: 0 2px 0 rgba(255, 255, 255, 0.2) inset,
+    2px 0 0 rgba(255, 255, 255, 0.2) inset,
+    -2px 0 0 rgba(255, 255, 255, 0.2) inset, 0-1px 0 1px #000 inset,
+    0 1px 0#000 inset;
+}
+.button-shine1 {
+  margin: 0 !important;
+  top: 28px;
+  right: -158px;
+  bottom: -28px;
+  left: 158px;
+  transform: rotate(180deg);
+  transform-origin: 0 0;
+  z-index: 1;
+}
+.button-11 {
+  height: 28px;
+  width: 158px;
+  border-radius: 8px;
+  background-color: #303030;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 21px 0 0;
+  box-sizing: border-box;
+  position: relative;
+}
+.button-11,
+.button-group1,
+.tracking-link {
+  display: flex;
+  justify-content: flex-start;
+}
+.button-group1 {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 8px;
+}
+.tracking-link {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 16px 24px;
+  box-sizing: border-box;
+  gap: 32px;
+  max-width: 100%;
+}
+.card1,
+.frame-left {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  max-width: 100%;
+}
+.card1 {
+  flex: 1;
+  border-radius: 12px;
+  background-color: #eaf4ff;
+  box-shadow: 1px 0 0 rgba(0, 0, 0, 0.13) inset,
+    -1px 0 0 rgba(0, 0, 0, 0.13) inset, 0-1px 0 rgba(0, 0, 0, 0.17) inset,
+    0 1px 0 rgba(204, 204, 204, 0.5) inset, 0 1px 0 rgba(26, 26, 26, 0.07);
+  overflow: hidden;
+  align-items: center;
+  min-width: 249px;
+  z-index: 1;
+}
+.frame-left {
+  width: 1028px;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 16px;
+  text-align: left;
+  font-size: 14px;
+  color: #4a4a4a;
+  font-family: Inter;
+}
+@media screen and (max-width: 1050px) {
+  .button-21 {
+    text-align: center;
+    flex: 1;
+    min-width: 82;
+  }
+  .label3 {
+    flex: 1;
+    min-width: 100%;
+  }
+  .card1 {
+    flex: unset;
+    align-self: stretch;
+  }
+  .frame-left {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 450px) {
+  .button-group1 {
+    flex-wrap: wrap;
+  }
+  .tracking-link {
+    gap: 16px;
+  }
+}

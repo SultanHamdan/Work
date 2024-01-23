@@ -1,0 +1,273 @@
+.top-nav-child {
+  align-self: stretch;
+  position: relative;
+  background-color: #fff;
+  height: 56px;
+  display: none;
+}
+.chevrondown-icon,
+.chevrondown-icon1,
+.top-nav-item {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  display: none;
+}
+.top-nav-item {
+  width: 25px;
+  height: 1px;
+  border-top: 1px solid #29845a;
+  box-sizing: border-box;
+}
+.chevrondown-icon2 {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  display: none;
+}
+.line-div,
+.top-nav-child1,
+.top-nav-child2,
+.top-nav-inner {
+  width: 25px;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid #29845a;
+  box-sizing: border-box;
+  display: none;
+}
+.top-nav-child2 {
+  width: 69px;
+  border-top: 1px solid #4a4a4a;
+}
+.home,
+.title-for-children {
+  position: relative;
+  z-index: 1;
+}
+.home {
+  line-height: 20px;
+  font-weight: 600;
+}
+.title-for-children {
+  width: 26px;
+  height: 2px;
+  border-top: 2px solid #8051ff;
+  box-sizing: border-box;
+}
+.home-parent {
+  height: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 4px;
+}
+.integrations,
+.orders,
+.tracking-page {
+  position: relative;
+  line-height: 20px;
+  font-weight: 600;
+  z-index: 1;
+}
+.tracking-page {
+  white-space: nowrap;
+}
+.chevrondown-icon3 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  min-height: 20px;
+  z-index: 1;
+}
+.tracking-page-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 4px;
+}
+.partner-with-us {
+  position: relative;
+  line-height: 20px;
+  font-weight: 600;
+  white-space: nowrap;
+  z-index: 1;
+}
+.button {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 2px 0 0;
+  box-sizing: border-box;
+  gap: 33px;
+  max-width: 100%;
+}
+.search,
+.search-icon {
+  position: relative;
+  z-index: 1;
+}
+.search-icon {
+  height: 20px;
+  width: 20px;
+  min-height: 20px;
+}
+.search {
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 500;
+  font-family: Inter;
+  color: #616161;
+  text-align: left;
+}
+.chart {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.logos {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid #4a4a4a;
+  box-sizing: border-box;
+  z-index: 1;
+}
+.chart-parent {
+  height: 24px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 4px;
+}
+.account,
+.person-icon {
+  position: relative;
+  z-index: 1;
+}
+.person-icon {
+  height: 20px;
+  width: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 20px;
+}
+.account {
+  line-height: 20px;
+  font-weight: 600;
+}
+.button1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 4px;
+}
+.settings,
+.settings-icon {
+  position: relative;
+  z-index: 1;
+}
+.settings-icon {
+  height: 20px;
+  width: 20px;
+  min-height: 20px;
+}
+.settings {
+  line-height: 20px;
+  font-weight: 600;
+}
+.button2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 4px;
+}
+.button-parent,
+.frame-div,
+.star-facts {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.star-facts {
+  width: 346px;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 33px;
+  color: #616161;
+}
+.button-parent,
+.frame-div {
+  align-items: flex-start;
+}
+.button-parent {
+  flex: 1;
+  justify-content: space-between;
+  gap: 20px;
+}
+.frame-div {
+  width: 1144px;
+  justify-content: flex-start;
+  padding: 0 7px 0 0;
+  box-sizing: border-box;
+}
+.top-nav-child3 {
+  width: 69px;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid #4a4a4a;
+  box-sizing: border-box;
+  display: none;
+}
+.text,
+.top-nav {
+  box-sizing: border-box;
+  z-index: 1;
+}
+.text {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid #8a8a8a;
+}
+.top-nav {
+  width: 100%;
+  margin: 0 !important;
+  position: absolute;
+  top: -5px;
+  left: -1px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 16px 0 0 1px;
+  gap: 16px;
+  text-align: left;
+  font-size: 14px;
+  color: #4a4a4a;
+  font-family: Inter;
+}
+@media screen and (max-width: 750px) {
+  .button {
+    gap: 16px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .star-facts {
+    gap: 16px;
+  }
+}
